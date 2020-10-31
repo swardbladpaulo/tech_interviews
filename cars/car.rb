@@ -1,17 +1,9 @@
 class Car
-  attr_accessor :color 
-
+  attr_accessor :color
   def initialize()
-    @color = 'green'
-    @driver = 'Paulo'    
+     @color = 'silver'    
   end
-
-  def new_color(newcolor)
-    @color = newcolor
+  def new_paint(newcolor)
+      @color = newcolor
   end
-
-  def driver(driver)
-    @driver = driver
-  end
-  
 end
